@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Info"
+    tools:showIn="@layout/app_bar_info">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="341dp"
+        android:layout_height="0dp"
+        android:background="@drawable/goldensands"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:scrollbars="vertical"
+        android:text="Златни пясъци (до 29 юни 1942 г. Узун кум)[1] е най-старият от трите големи български морски курорта, разположен в северната част на българското черноморие. Намира се в община Варна, район Приморски. Разположен е на 17 км от центъра на Варна.  Златни пясъци е и най-известният курорт по северното черноморско крайбрежие. Разположен в полите на Природен парк „Златни пясъци“, защитена от закона територия. Плажната ивица, покрита със златист пясък, е с дължина 3,5 км и е широка до 100 м. Изграждането му започва през 1956 г. (главен проектант е архитектът Георги Ганев), с построяването на 70 хотела с 15 000 места. Първият е хотел „Оазис“.  Територията около курорта е уникална със своите растителни видове и крайморска растителност. Тя е обособена като Природен парк. В него се съхраняват застрашени и защитени растителни и животински видове и има изградени пет туристически маршрута, които преминават през стари чешми, кътове за отдих, места с очарователен изглед към морето. Културно-историческото наследство на парка обхваща широк период -- от античността до късното Средновековие.  Златни пясъци е благоприятно място за провеждане на мероприятия от всякакъв характер като симпозиуми, семинари, обучения, работни срещи, кръгли маси и др. Удобствата и добре разположените хотели в близост до Варна са предпоставка за честите прояви в комплекса. През последните години редица организации, асоциации, професионални съюзи, централни и местни администрации провеждат своите мероприятия в хотелите на прекрасния комплекс на брега на морето.  Плажът на курорта, както и алеите му страдат от силно пренатрупване на търговски обекти, предаващи му облик на битпазар."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+</android.support.constraint.ConstraintLayout>
